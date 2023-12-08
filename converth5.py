@@ -1,27 +1,10 @@
-SAVED_MODEL_DIR = '/media/tamlab/DataStorage/SignLanguage/CodeInServer/AiSeminar/sign_model.h5'
-
-# from tensorflow.python.compiler.tensorrt import trt_convert as trt
- 
-# # Instantiate the TF-TRT converter
-# converter = trt.TrtGraphConverterV2(
-#    input_saved_model_dir=SAVED_MODEL_DIR,
-#    precision_mode=trt.TrtPrecisionMode.FP32
-# )
- 
-# # Convert the model into TRT compatible segments
-# trt_func = converter.convert()
-# converter.summary()
-
 import tf2onnx
 import onnxruntime as rt
 import os
 import tensorflow as tf
 
-
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
-
-
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
