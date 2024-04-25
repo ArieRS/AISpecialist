@@ -1,5 +1,10 @@
 # Sign Language Recognition Project
 
+## Project Demonstration
+
+[![Project Demonstration](https://i9.ytimg.com/vi_webp/dBV_yIljy3c/mq1.webp?sqp=CKDyprEG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEEgEyh_MA8=&rs=AOn4CLBGRz0GOMbrGaflpYY5KkwQCCPaxA)](https://www.youtube.com/embed/dBV_yIljy3c?si=H98ek2FlSMDMeY12)
+
+
 ## About
 - This repository is used for Jetson AI Specialist certification. This project is about sign language recognition which was implemented on Jetson Nano. We used 8 classes for this task: book, hello, help, I, I love you, need, standby, and thank.
 - You can see the explanation about this project on [presentation](https://youtu.be/WSRoR2fM3FU?si=9gYy7lCFrnV0QCeH).
